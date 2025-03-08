@@ -29,10 +29,10 @@ function sortear(){
         cor = '#000'
     }
 
-    //Renderização do canto superior esuqerdo
+    //Renderização do canto superior esquerdp
     document.getElementById('supEsq').innerHTML = `<div>${facesSorteado}</div> <div>${nipeSorteado}</div>`
 
-    //A linha abaixo aplica o estilo da cor ao doxumento html identificado como 'supEsq'
+    //A linha abaixo aplica o estilo da cor ao documento html identificado como 'supEsq'
     document.getElementById('supEsq').style.color = cor
     document.getElementById('infDir').style.color = cor
 
